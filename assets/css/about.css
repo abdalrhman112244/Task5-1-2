@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.part2-img {
+    width: 570px !important;
+}
+
+#FITS-PROTECTS-YOUR-PHONE-PERFECTLY {
+    background-image: url(../img/perconal.avif);
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#FITS-PROTECTS-YOUR-PHONE-PERFECTLY .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000a7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#FITS-PROTECTS-YOUR-PHONE-PERFECTLY .row .card {
+    width: 22rem;
+    margin-bottom: 20px;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: none;
+}
+
+.icon {
+    width: 80px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-FITS-PROTECTS {
+    width: 30px;
+    height: 30px;
+    color: red;
+}
+
+/* ========================================== */
+.box-img img {
+    width: 500px;
+    box-shadow: 16px -24px 0px 1px #ff0000;
+}
+
+#Screen-Protection-from-scratches .row .part2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#Screen-Protection-from-scratches .row .part1 .card p , #Screen-Protection-from-scratches .row .part2 .card p{
+    max-width: 480px;
+}
+/* ================================== */
+.p-first{
+    width: 600px;
+}
+.img-text img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.the-star {
+    color: #f9ca34;
+    margin-bottom: 20px;
+}
+
+.the-star .fa-solid {
+    color: #f9ca34;
+}
+/* ==================================== */
+#OUR-TEAM .row{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+#OUR-TEAM .row .card{
+    width: 300px;
+}
+#OUR-TEAM .row .card img{
+    width: 300px;
+}
+@media screen and (max-width:600px) {
+    .part2-img {
+        width: 300px !important;
+    }
+
+    .box-img img {
+        width: 300px;
+    }
+    .p-first{
+        width: 300px;
+    }
+}

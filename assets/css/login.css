@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.home {
+    padding: 100px 0px;
+}
+
+form {
+    background-color: #e7e7e7;
+    height: 400px;
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+form input {
+    width: 350px !important;
+    border: none;
+    outline: none;
+    border-radius: 50px !important;
+    padding: 0px 10px;
+    font-size: 18px;
+
+}
+
+form .btn {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 30px;
+}
+
+form .btn:hover {
+    background-color: red !important;
+    color: white;
+}
+.box::before{
+    content: ' ';
+    width: 350px;
+    height: 1px;
+    color: black;
+    background-color: black;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media screen and (max-width:600px) {
+    form{
+        width: 320px;
+    }
+    form input{
+        width: 250px !important;
+
+    }
+    .box::before{
+        width: 250px;
+    }
+    .box{
+        gap: 1rem !important;
+    }
+
+}

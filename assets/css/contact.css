@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+    border: 0px;
+}
+#Contact .container .row .card{
+    background-color: #f8f8f8;
+}
+#Have-a-question .container .box{
+    background-color: #f8f8f8;
+}
+#Have-a-question .container .box textarea{
+    border-radius: 30px;
+}
+#Have-a-question .container .box .btn{
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+}
