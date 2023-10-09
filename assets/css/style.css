@@ -182,8 +182,8 @@
 /* end hero */
 
 #shopify-section-template .container .row .card img {
-    width: 54px;
-    height: 60px;
+    width: 70px;
+    height: 55px;
 }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
@@ -617,7 +617,7 @@
         width: 300px;
     }
     #LOSE-YOURSELF-IN-ENTERTAINMENT{
-        height: 170vh;
+        height: 155vh;
     }
     .phone-middle{
         width: 300px !important;

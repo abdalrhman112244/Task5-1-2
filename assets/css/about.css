@@ -98,15 +98,9 @@
     color: #f9ca34;
 }
 /* ==================================== */
-#OUR-TEAM .row{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-#OUR-TEAM .row .card{
-    width: 300px;
-}
 #OUR-TEAM .row .card img{
-    width: 300px;
+    max-width: 100%;
+    height: auto;
 }
 @media screen and (max-width:600px) {
     .part2-img {
@@ -118,5 +112,8 @@
     }
     .p-first{
         width: 300px;
+    }
+    #FITS-PROTECTS-YOUR-PHONE-PERFECTLY{
+        height: 165vh;
     }
 }
